@@ -15,15 +15,15 @@ type Props = {
   id: string;
   title: string;
   image: string;
-  description: string;
+  short_description: string;
 };
-const BlogCard: React.FC<Props> = ({ id, title, image, description }) => {
+const BlogCard: React.FC<Props> = ({ id, title, image, short_description }) => {
   return (
     <div className={styles.wrapper}>
       <img src={image} className={styles.image} alt={title} />
       <div className={styles.content}>
         <h3>{title}</h3>
-        <p>{description}</p>
+        <p>{short_description}</p>
       </div>
       <Link to={`/blog/${id}`}>
         <div className={styles.buttonWrapper}>

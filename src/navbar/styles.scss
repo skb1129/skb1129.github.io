@@ -19,6 +19,8 @@
   }
   &__items-wrapper {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   &__item {
     font-size: 1.4rem;

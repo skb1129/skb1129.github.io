@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Navbar from "../navbar/Navbar";
 import About from "../about/About";
 import Education from "../education/Education";
+import Skills from "../skills/Skills";
 
 import "./styles.scss";
 
@@ -19,6 +20,7 @@ const App: React.FC = () => {
         <Route path="/" exact component={About} />
         <Route path="/about" component={About} />
         <Route path="/education" component={Education} />
+        <Route path="/skills" component={Skills} />
       </div>
     </BrowserRouter>
   );

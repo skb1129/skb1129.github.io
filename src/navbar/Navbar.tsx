@@ -13,7 +13,7 @@ const styles = {
 
 const Navbar: React.FC = () => {
   return (
-    <div className={styles.wrapper}>
+    <header className={styles.wrapper}>
       <NavLink to="/" className={styles.title}>
         Surya Kant Bansal
       </NavLink>
@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
           Blog
         </NavLink>
       </div>
-    </div>
+    </header>
   );
 };
 

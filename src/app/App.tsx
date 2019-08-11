@@ -19,7 +19,7 @@ const App: React.FC = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <div className={styles.wrapper}>
+      <main className={styles.wrapper}>
         <Route path="/" exact component={About} />
         <Route path="/about" component={About} />
         <Route path="/education" component={Education} />
@@ -27,7 +27,7 @@ const App: React.FC = () => {
         <Route path="/interests" component={Interests} />
         <Route path="/awards" component={Awards} />
         <Route path="/blog" component={Blog} />
-      </div>
+      </main>
     </BrowserRouter>
   );
 };

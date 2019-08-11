@@ -12,7 +12,7 @@ const styles = {
 const About: React.FC = () => {
   return (
     <div className={styles.wrapper}>
-      <img src={PROFILE} className={styles.image} alt="Profile image" />
+      <img src={PROFILE} className={styles.image} alt="Profile" />
       <p className={styles.text}>
         Working as a UX developer. A year of experience in mobile app development using React Native. Proficient in
         JavaScript and ReactJS web development. Familiar with AngularJS, Python, C++ and SQL/NoSQL databases. Good at

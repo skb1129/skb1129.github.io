@@ -1,15 +1,15 @@
 type BlogData = {
-  id: string,
-  title: string,
-  image: string,
-  cover_image: string,
-  short_description: string,
-  description: string,
+  id: string;
+  title: string;
+  image: string;
+  cover_image: string;
+  short_description: string;
+  description: string;
 };
 
 type Blogs = {
   [index: string]: BlogData;
-}
+};
 
 const data: Blogs = {
   blog1: {

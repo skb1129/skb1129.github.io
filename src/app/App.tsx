@@ -5,6 +5,7 @@ import Navbar from "../navbar/Navbar";
 import About from "../about/About";
 import Education from "../education/Education";
 import Skills from "../skills/Skills";
+import Interests from "../interests/Interests";
 
 import "./styles.scss";
 
@@ -21,6 +22,7 @@ const App: React.FC = () => {
         <Route path="/about" component={About} />
         <Route path="/education" component={Education} />
         <Route path="/skills" component={Skills} />
+        <Route path="/interests" component={Interests} />
       </div>
     </BrowserRouter>
   );

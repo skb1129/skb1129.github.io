@@ -7,6 +7,7 @@ import Education from "../education/Education";
 import Skills from "../skills/Skills";
 import Interests from "../interests/Interests";
 import Awards from "../awards/Awards";
+import Blog from "../blog/Blog";
 
 import "./styles.scss";
 
@@ -25,6 +26,7 @@ const App: React.FC = () => {
         <Route path="/skills" component={Skills} />
         <Route path="/interests" component={Interests} />
         <Route path="/awards" component={Awards} />
+        <Route path="/blog" component={Blog} />
       </div>
     </BrowserRouter>
   );

@@ -1,0 +1,11 @@
+.about {
+  &__wrapper {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+  }
+  &__text {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}

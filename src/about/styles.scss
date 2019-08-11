@@ -1,0 +1,17 @@
+.about {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  &__image {
+    border-radius: 3rem;
+    max-width: 100%;
+  }
+  &__text {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}

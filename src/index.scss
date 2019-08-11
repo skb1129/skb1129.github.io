@@ -1,0 +1,30 @@
+@import "common/colors";
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,500&display=swap");
+
+html {
+  font-size: 10px;
+  color: $textPrimary;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $background;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,35 @@
+@import "../common/colors";
+@import "../common/main";
+
+.navbar {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: $primary;
+    box-shadow: $shadow1, $shadow2;
+  }
+  &__title {
+    font-size: 2rem;
+    color: $textPrimary;
+    font-weight: bold;
+    margin: 1rem;
+  }
+  &__items-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &__item {
+    font-size: 1.4rem;
+    color: $textPrimary;
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    &:hover,
+    &__active {
+      background-color: $background;
+    }
+  }
+}

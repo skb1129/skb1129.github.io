@@ -4,8 +4,7 @@
 .navbar {
   &__wrapper {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     background-color: $primary;
@@ -15,7 +14,7 @@
     font-size: 2rem;
     color: $textPrimary;
     font-weight: bold;
-    margin: 1rem 0;
+    margin: 1rem;
   }
   &__items-wrapper {
     display: flex;

@@ -20,4 +20,6 @@ jobs:
     - name: Intall Yarn
       run: sudo apt-get install yarn
     - name: Build Project
-      run: yarn build
+      run: |
+        yarn install
+        yarn build

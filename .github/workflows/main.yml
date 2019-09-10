@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches:
+    - master
+  pull_request:
+    branches:
+    - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+    - name: Intall NodeJS
+      run: sudo apt-get install nodejs
+    - name: Intall Yarn
+      run: sudo apt-get install yarn
+    - name: Build Project
+      run: yarn build
